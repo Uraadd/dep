@@ -1,0 +1,32 @@
+.corners {
+  position: relative;
+  width: 200px; /* for demo purposes */
+  padding: 15px;
+}
+
+.top, .bottom {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  pointer-events: none;
+}
+
+.top {
+  top: 0;
+  border-top: 3px solid red;
+}
+
+.bottom {
+  bottom: 0;
+  border-bottom: 3px solid red;
+}
+
+.left {
+  left: 0;
+  border-left: 3px solid;
+}
+
+.right {
+  right: 0;
+  border-right: 3px solid;
+}
